@@ -1,29 +1,25 @@
 """
 1. Run
-Shift+F10 Pycharm
+Shift+F10 PyCharm
 F5 Vscode Geany
-2. Search class, files, tools windows, action and settings
-Double Shift Pycharm
+2. Search class, files, tool windows, action and settings
+Double Shift PyCharm
 """
 
 
 class Main:
-    """Main class that contains the main method."""
+    """Main class contains the main method."""
 
-    def __init__(self):
-        """Initializer for the Main class."""
-        # does nothing in Python.
-        pass
-    
     @staticmethod
     def main():
-        """Static method that prints a welcome message."""
+        """Static method print a welcome message."""
         print("Bienvenido")
 
 
 if __name__ == "__main__":
-    # set breakpoint; Ctrl+F8 PyCharm;
-    Main.main()  # Calls the main method of the Main class
+    # set Breakpoint; Ctrl+F8 PyCharm;
+    Main.main()  # Call the main method of the Main class
+# pylint: disable=W0105
 '''
 Help:
 https://www.jetbrains.com/help/pycharm/

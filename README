@@ -1,0 +1,37 @@
+---
+
+# Activar y Desactivar Entorno Virtual en PowerShell
+
+Este archivo README proporciona instrucciones sobre cómo activar y desactivar un entorno virtual en PowerShell utilizando Windows.
+
+## Activar el Entorno Virtual
+
+Para activar el entorno virtual en PowerShell, sigue estos pasos:
+
+1. Abre PowerShell.
+2. Navega hasta el directorio principal de tu proyecto donde se encuentra el entorno virtual. Puedes usar el comando `cd` para cambiar de directorio.
+3. Ejecuta el siguiente comando para activar el entorno virtual:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+Después de ejecutar este comando, verás que el nombre del entorno virtual aparece en el prefijo de la línea de comandos, lo que indica que el entorno virtual está activo.
+
+## Desactivar el Entorno Virtual
+
+Para desactivar el entorno virtual en PowerShell, sigue estos pasos:
+
+1. Asegúrate de que estás en PowerShell y el entorno virtual está activo.
+2. Ejecuta el siguiente comando para desactivar el entorno virtual:
+
+```powershell
+deactivate
+```
+
+Después de ejecutar este comando, el entorno virtual se desactivará y volverás al entorno de PowerShell base.
+
+¡Eso es todo! Ahora sabes cómo activar y desactivar un entorno virtual en PowerShell para gestionar tus dependencias de proyecto de forma eficiente.
+
+---
+
